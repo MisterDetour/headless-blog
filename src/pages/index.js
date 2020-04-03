@@ -27,7 +27,6 @@ export const query = graphql`
 
 const Blog = ({ data }) => {
   const posts = data.wpgraphql.posts.nodes
-  const pageInfo = data.wpgraphql.posts.pageInfo
 
   return (
     <Layout>
